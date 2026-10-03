@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.png" alt="Stefan Voorbij — Senior Database Administrator" width="100%" />
+  <img src="assets/profile-header.svg" alt="Stefan Voorbij — Senior Database Administrator" width="100%" />
 </p>
 
 ## Hi, I'm Stefan 👋
