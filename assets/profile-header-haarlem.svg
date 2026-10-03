@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="55%" stop-color="#0b2745"/>
+      <stop offset="100%" stop-color="#123f66"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#123a5c"/>
+      <stop offset="100%" stop-color="#081a2c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#4fb3ff"/>
+      <stop offset="100%" stop-color="#8bd7ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+
+  <!-- left tech/database mark -->
+  <g transform="translate(60 74)">
+    <ellipse cx="72" cy="18" rx="60" ry="18" fill="none" stroke="url(#accent)" stroke-width="7"/>
+    <path d="M12 18v44c0 10 27 18 60 18s60-8 60-18V18" fill="none" stroke="url(#accent)" stroke-width="7"/>
+    <path d="M12 62v44c0 10 27 18 60 18s60-8 60-18V62" fill="none" stroke="url(#accent)" stroke-width="7"/>
+    <ellipse cx="72" cy="106" rx="60" ry="18" fill="none" stroke="url(#accent)" stroke-width="7"/>
+    <circle cx="155" cy="102" r="31" fill="#0d2137" stroke="#8bd7ff" stroke-width="5"/>
+    <path d="M155 87v30M140 102h30" stroke="#8bd7ff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- profile text -->
+  <text x="260" y="98" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">
+    Stefan Voorbij
+  </text>
+  <text x="263" y="140" fill="#c1def2" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="3">
+    SENIOR DATABASE ADMINISTRATOR
+  </text>
+  <text x="263" y="180" fill="#79c9ff" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="1.8">
+    ORACLE · POSTGRESQL · LINUX · AUTOMATION
+  </text>
+  <text x="263" y="218" fill="#93b2c9" font-family="Arial, Helvetica, sans-serif" font-size="16">
+    Repeatable · Controlled · Auditable
+  </text>
+
+  <!-- Haarlem scene -->
+  <g opacity="0.92">
+    <!-- distant sky glow -->
+    <path d="M720 0 H1200 V245 H720 Z" fill="#0f3150" opacity=".55"/>
+
+    <!-- church tower / Haarlem reference -->
+    <g fill="#173a59">
+      <rect x="975" y="92" width="34" height="135"/>
+      <polygon points="992,34 972,92 1012,92" fill="#1f5279"/>
+      <rect x="984" y="61" width="16" height="31" fill="#2c6a95"/>
+      <rect x="986" y="112" width="12" height="28" fill="#0a1c2d"/>
+    </g>
+
+    <!-- canal houses -->
+    <g fill="#1a4568">
+      <path d="M790 145 h58 v82 h-58 z"/>
+      <polygon points="790,145 819,124 848,145" fill="#245a81"/>
+
+      <path d="M852 135 h62 v92 h-62 z"/>
+      <polygon points="852,135 883,111 914,135" fill="#2a628a"/>
+
+      <path d="M919 149 h55 v78 h-55 z"/>
+      <polygon points="919,149 946,128 974,149" fill="#285d84"/>
+
+      <path d="M1017 142 h59 v85 h-59 z"/>
+      <polygon points="1017,142 1046,119 1076,142" fill="#24587e"/>
+
+      <path d="M1081 151 h58 v76 h-58 z"/>
+      <polygon points="1081,151 1110,129 1139,151" fill="#285d84"/>
+    </g>
+
+    <!-- house windows -->
+    <g fill="#8bd7ff" opacity=".45">
+      <rect x="802" y="163" width="9" height="13"/><rect x="824" y="163" width="9" height="13"/>
+      <rect x="865" y="156" width="10" height="14"/><rect x="889" y="156" width="10" height="14"/>
+      <rect x="931" y="169" width="9" height="13"/><rect x="952" y="169" width="9" height="13"/>
+      <rect x="1030" y="161" width="9" height="13"/><rect x="1053" y="161" width="9" height="13"/>
+      <rect x="1094" y="170" width="9" height="13"/><rect x="1117" y="170" width="9" height="13"/>
+    </g>
+
+    <!-- drawbridge -->
+    <g stroke="#75c8ff" stroke-width="4" fill="none" opacity=".75">
+      <path d="M735 218 H1175"/>
+      <path d="M748 218 L780 190 L812 218"/>
+      <path d="M760 218 L760 188"/>
+      <path d="M800 218 L800 188"/>
+    </g>
+
+    <!-- canal water -->
+    <rect x="700" y="228" width="500" height="92" fill="url(#water)"/>
+    <g stroke="#62b8ec" stroke-width="2" opacity=".35">
+      <path d="M720 250 C780 242, 820 260, 880 250 S1000 242, 1080 252 S1160 260, 1190 248"/>
+      <path d="M735 276 C790 268, 850 286, 920 276 S1040 268, 1110 278 S1170 282, 1195 274"/>
+      <path d="M760 300 C820 292, 890 306, 950 298 S1080 292, 1175 301"/>
+    </g>
+
+    <!-- small boat -->
+    <g transform="translate(1035 252)" fill="#76c7ff" opacity=".7">
+      <path d="M0 20 h68 l-10 14 h-46 z"/>
+      <rect x="22" y="5" width="22" height="15"/>
+    </g>
+  </g>
+
+  <!-- subtle footer line -->
+  <line x1="260" y1="245" x2="640" y2="245" stroke="#315c7d" stroke-width="1"/>
+  <text x="263" y="272" fill="#6f93ad" font-family="Arial, Helvetica, sans-serif" font-size="14">
+    Haarlem · Netherlands
+  </text>
+</svg>
